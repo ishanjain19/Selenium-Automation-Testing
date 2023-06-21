@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T04:20:07Z" name="Default suite" finished-at="2023-06-21T04:20:32Z" duration-ms="25559">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T04:20:07Z" name="Default test" finished-at="2023-06-21T04:20:32Z" duration-ms="25559">
+      <class name="TestCases.TCs">
+        <test-method is-config="true" signature="testLaunch()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:07Z" name="testLaunch" finished-at="2023-06-21T04:20:07Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunch -->
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:07Z" name="invokeBrowser" finished-at="2023-06-21T04:20:12Z" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="TC1_verifyPageTitle()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:12Z" name="TC1_verifyPageTitle" finished-at="2023-06-21T04:20:12Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_verifyPageTitle -->
+        <test-method signature="TC2_verifyLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:12Z" name="TC2_verifyLoginCredentials" data-provider="credentials" finished-at="2023-06-21T04:20:15Z" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_verifyLoginCredentials -->
+        <test-method signature="TC2_verifyLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:15Z" name="TC2_verifyLoginCredentials" data-provider="credentials" finished-at="2023-06-21T04:20:15Z" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_verifyLoginCredentials -->
+        <test-method signature="TC3_dropdown()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:15Z" name="TC3_dropdown" finished-at="2023-06-21T04:20:19Z" duration-ms="4192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_dropdown -->
+        <test-method signature="TC4_addToCart()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:19Z" name="TC4_addToCart" finished-at="2023-06-21T04:20:25Z" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_addToCart -->
+        <test-method signature="TC5_checkout()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:25Z" name="TC5_checkout" finished-at="2023-06-21T04:20:30Z" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_checkout -->
+        <test-method signature="TC6_logout()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:30Z" name="TC6_logout" finished-at="2023-06-21T04:20:32Z" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:32Z" name="closeBrowser" finished-at="2023-06-21T04:20:32Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TCs@710c2b53]" started-at="2023-06-21T04:20:32Z" name="tearDown" finished-at="2023-06-21T04:20:32Z" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TCs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
