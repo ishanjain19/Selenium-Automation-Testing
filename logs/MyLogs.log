@@ -440,3 +440,20 @@
 [INFO ] 2023-06-21 09:50:30.132 [main] TCs - Side menu opened
 [INFO ] 2023-06-21 09:50:32.208 [main] TCs - Clicked on logging out
 [INFO ] 2023-06-21 09:50:32.208 [main] TCs - Logging Out
+[INFO ] 2023-06-26 11:00:00.317 [main] TCs - URL opened
+[INFO ] 2023-06-26 11:00:00.344 [main] TCs - Verified Page Title
+[ERROR] 2023-06-26 11:00:02.918 [main] TCs - Login was not successful
+[INFO ] 2023-06-26 11:00:03.210 [main] TCs - Login was successful
+[INFO ] 2023-06-26 11:00:03.285 [main] TCs - Drop down menu opened
+[INFO ] 2023-06-26 11:00:07.391 [main] TCs - Low to High Filter Selected
+[INFO ] 2023-06-26 11:00:07.446 [main] TCs - Item1 successfully added to cart
+[INFO ] 2023-06-26 11:00:08.498 [main] TCs - Item2 successfully added to cart
+[INFO ] 2023-06-26 11:00:09.553 [main] TCs - Item3 successfully added to cart
+[WARN ] 2023-06-26 11:00:10.602 [main] TCs - Item2 removed from cart
+[INFO ] 2023-06-26 11:00:11.664 [main] TCs - Items were successfully added to cart
+[INFO ] 2023-06-26 11:00:14.084 [main] TCs - Details successfully entered
+[INFO ] 2023-06-26 11:00:17.376 [main] TCs - Successfully completed checkout
+[INFO ] 2023-06-26 11:00:17.436 [main] TCs - Returned to the home page
+[INFO ] 2023-06-26 11:00:17.498 [main] TCs - Side menu opened
+[INFO ] 2023-06-26 11:00:19.569 [main] TCs - Clicked on logging out
+[INFO ] 2023-06-26 11:00:19.569 [main] TCs - Logging Out
